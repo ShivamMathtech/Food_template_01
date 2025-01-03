@@ -1,0 +1,31 @@
+.main_page {
+  height: 100vh;
+  background-image: url("../img/bg2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.overlay {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.header {
+  height: 120px;
+}
+.header_upper {
+  height: 40%;
+  border-bottom: 1.4px solid #463e41;
+}
+.t1 {
+  font-size: 12px;
+
+  font-weight: 400;
+}
+.header_upper a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 13px;
+}
+.logo {
+  font-size: 60px;
+  color: #ffffff;
+}
