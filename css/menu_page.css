@@ -151,3 +151,25 @@ input:focus {
   background-color: transparent;
   outline: none;
 }
+.footer-lower {
+  position: relative;
+}
+.footer-lower h6 {
+  font-size: 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.footer-lower p {
+  font-size: 14px;
+}
+.footer-lower table td {
+  padding: 5px;
+  font-size: 14px;
+}
+.nsletterbtn {
+  background-color: transparent;
+  color: white;
+  border: none;
+  position: absolute;
+  bottom: 80px;
+  right: 40px;
+}
