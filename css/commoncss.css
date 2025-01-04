@@ -1,0 +1,116 @@
+.header {
+  height: 120px;
+}
+.header_upper {
+  height: 40px;
+  border-bottom: 1.4px solid #463e41;
+}
+.header_lower {
+  height: 80px;
+}
+.t1 {
+  font-size: 12px;
+  font-weight: 400;
+}
+.header_upper a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 13px;
+}
+@font-face {
+  font-family: logoFont;
+  src: url("../css/fonts/PerfectoCalligraphy.ttf");
+}
+.logo {
+  font-size: 50px;
+  color: #ffffff;
+  font-family: logoFont;
+}
+.nav-link {
+  color: white;
+  font-size: 13px;
+}
+.nav-link i {
+  font-size: 12px;
+}
+.mybtn {
+  width: 150px;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  font-size: 14px;
+  padding: 5px;
+}
+footer {
+  height: 100vh;
+}
+.footer-top {
+  background-image: url("../img/footer.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 65%;
+}
+.footer-lower {
+  height: 35%;
+  background-color: #09080e;
+}
+.footer-top h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 60px;
+}
+.footer-top .mytext-1 {
+  font-size: 20px;
+}
+.mybtn-2 {
+  width: 200px;
+  border: none;
+  padding: 5px;
+  text-align: center;
+  background-color: #dd5903;
+  color: white;
+}
+input {
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid white;
+  color: white;
+  box-shadow: none;
+}
+input:focus {
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+.footer-lower {
+  position: relative;
+}
+.footer-lower h6 {
+  font-size: 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.footer-lower p {
+  font-size: 14px;
+}
+.footer-lower table td {
+  padding: 5px;
+  font-size: 14px;
+}
+.nsletterbtn {
+  background-color: transparent;
+  color: white;
+  border: none;
+  position: absolute;
+  bottom: 80px;
+  right: 40px;
+}
+.section-1 {
+  height: calc(100vh - 120px);
+}
+.line {
+  width: 50%;
+  border: 2px solid #e5e5e5;
+  border-left: none;
+  border-right: none;
+  height: 10px;
+  margin-top: 5px;
+}
